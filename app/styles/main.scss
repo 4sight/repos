@@ -1,11 +1,44 @@
 
 @import 'bourbon/bourbon';
 
-
 body {
   background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
+}
+
+header {
+  background-color: #EEE;
+  height: 40px;
+  padding-right: 10px;
+}
+
+#headerWrap {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#notifications {
+  height: 38px;
+  width: 40px;
+  border: 1px #E5E5E5 solid;
+  float: left;
+}
+
+#notificationsButton {
+  height: 6px;
+  width: 6px;
+  position: relative;
+  top: 16px;
+  background-color: #B9B9B9;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerLink {
+  float: left;
 }
 
 .hero-unit {
