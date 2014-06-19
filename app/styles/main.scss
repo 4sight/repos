@@ -47,6 +47,16 @@ header {
   font-weight: bold;
 }
 
+#headerDataWrap {
+    float: right;
+    top: 11px;
+    position: relative;
+    left: 16px;
+    padding-right: 16px;
+    font: 13px Helvetica, arial, freesans, clean, sans-serif;
+    font-weight: bold;
+  }
+
 #search {
   top: 8px;
   position: relative;
