@@ -39,6 +39,19 @@ header {
 
 .headerLink {
   float: left;
+  top: 12px;
+  position: relative;
+  left: 16px;
+  padding-left: 16px;
+  font: 13px Helvetica, arial, freesans, clean, sans-serif;
+  font-weight: bold;
+}
+
+#search {
+  top: 8px;
+  position: relative;
+  left: 16px;
+  float: left;
 }
 
 .hero-unit {
