@@ -1,6 +1,9 @@
-var template = _.template( $('#headerData').html() );
+var username = _.template( $('#headerData').html() );
+var picThumb = _.template( $('#avatar').html() );
+
 var pullData = function (data) {
-  $('#headerDataWrap').html( template(data)) ;
+	$('#headerDataWrap').html( username(data)) ;
+	$('#smallPic').html( picThumb(data)) ;
 };
 
 var cID = clientID || '';
