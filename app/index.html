@@ -43,38 +43,26 @@
             <script type='text/template' id='avatar'>
                 <img src='<%=avatar_url%>' height=30px; width=30px;>
             </script>
-            <script type='text/template' id='pic'>
-                <img src='<%=avatar_url%>' height=280px; width=280px;>
+            <script type='text/template' id='sidebar'>
+                <img src='<%=avatar_url%>' height=230px; width=230px; style='border-radius: 15px;'>
+                <div id='username'><%=login%></div>
+                <div id='joined'><div id='clock'><img src='https://cdn2.iconfinder.com/data/icons/picol-vector/32/clock_mini-128.png' style='opacity: 0.3;' height=25px width=25px></div><div id='joinedDate'>Joined on Jun 03, 2014</div></div>
+                <div id='statsWrapper'>
+                    <div class='num'><%=followers%><div class='statsText'>Followers</div></div>
+                    <div class='num'>0<div class='statsText'>Starred</div></div>
+                    <div class='num'><%=following%><div class='statsText'>Following</div></div>
+                </div>
             </script>
           <div id='headerDataWrap'></div>
           <div id='smallPic' style='float: right; top: 4px; position: relative;'></div>
       </div>
   </header>
-  <aside>
-      <div id='picBig'></div>
-  </aside>
-    <div class="hero-unit">
-      <h1>'Allo 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Normalize CSS</li>
-
-        <li>Sass</li>
-
-
-        <li>Modernizr</li>
-
-
-        <li>Bourbon</li>
-
-
-        <li>UnderscoreJS</li>
-
-      </ul>
-      <p>Don't forget to update your readme file!!</p>
-    </div>
-
+  <div id='container'>
+      <aside>
+          <div id='side'></div>
+      </aside>
+  </div>
+    
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>

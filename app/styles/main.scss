@@ -65,6 +65,68 @@ header {
   float: left;
 }
 
+#container {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+aside {
+  width: 230px;
+}
+
+#username {
+  color: grey;
+  font: 13px Helvetica, arial, freesans, clean, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+#joined {
+  border-top-style: solid;
+  border-top-color: #DDDDDD;
+  border-top-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #DDDDDD;
+  border-bottom-width: 1px;
+  height: 45px;
+}
+
+#clock {
+  padding-top: 10px;
+  padding-right: 5px;
+  float: left;
+}
+
+#joinedDate {
+  margin-top: 14px;
+  float: left;
+  font-size: 14px;
+  width: 190px;
+}
+
+#statsWrapper {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+$statPadding: 19px;
+
+.num {
+  float: left;
+  padding-left: $statPadding;
+  padding-right: $statPadding;
+}
+
+.statsText {
+  color: grey;
+  font-size: 10px;
+  font-weight: 200;
+}
+
 .hero-unit {
   margin: 50px auto 0 auto;
   width: 600px;
