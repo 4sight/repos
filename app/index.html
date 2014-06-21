@@ -53,16 +53,19 @@
                     <div class='num'><%=following%><div class='statsText'>Following</div></div>
                 </div>
             </script>
-            
           <div id='headerDataWrap'></div>
           <div id='smallPic' style='float: right; top: 4px; position: relative;'></div>
       </div>
   </header>
+    <script type='text/template' id='repos'>
+        <%=name%>            
+    </script>
   <div id='container'>
       <div id='side'></div>
-      <div id='main'></div>
+      <div id='main'>
+      </div>
   </div>
-    
+
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>

@@ -15,12 +15,14 @@ $.getJSON('https://api.github.com/users/4sight', {client_id: cID, client_secret:
 	pullData(data);
 });
 
-var list = _.template( $('#repos').html() );
+var listing = _.template( $('#repos').html() );
 
 var pullData = function (myRepos) {
-	$('#main').html( list(myRepos));
+	$('#main').html( listing(myRepos));
 };
 
-$.getJSON('https://api.github.com/users/4sight', {client_id: cID, client_secret: cSECRET}, function (myRepos) {
-	pullData(myRepos);
+$.getJSON('https://api.github.com/users/4sight/repos', function (myRepos) {
+		_.each( myRepos, function(a){
+			$('#main').append( listing(a));
+		});
 });
