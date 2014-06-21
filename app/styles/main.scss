@@ -70,7 +70,7 @@ header {
   margin-left: 60px;
 }
 
-aside {
+#side {
   width: 230px;
 }
 
@@ -119,6 +119,7 @@ $statPadding: 19px;
   float: left;
   padding-left: $statPadding;
   padding-right: $statPadding;
+  text-align: center;
 }
 
 .statsText {
