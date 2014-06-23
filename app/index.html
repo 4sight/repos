@@ -57,13 +57,40 @@
           <div id='smallPic' style='float: right; top: 4px; position: relative;'></div>
       </div>
   </header>
-  // When I remove the next three lines the header and sidebar data works again
     <script type='text/template' id='repos'>
         <%=name%>            
     </script>
   <div id='container'>
       <div id='side'></div>
       <div id='main'>
+            <div id='boxContributions'>
+              <div id='box'><img src='http://www.mitigeur-thermostatique.com/wp-content/uploads/2013/10/plus-256-1.png' 
+              width='12px' height='12px' style='position: relative; top: -3px;'></div>
+              <div class='tab'>Contributions</div>
+            </div>
+            <div id='boxRepos'>
+              <img src='http://www.iconsdb.com/icons/preview/black/book-16-xxl.png' width='25px' height='25px' style='position: relative; top: 6px; left: 5px; opacity: 0.8;'>
+            <div class='tab' style='top: -17px;'>Repositories</div>
+            </div>
+            <div id='boxActivity'>
+              <img src='https://cdn1.iconfinder.com/data/icons/defaulticon/icons/png/256x256/rss.png'
+              width='15px' height='15px' style='position: relative; top: 11px; left: 11px; opacity: 0.8;'>
+              <div class='tab' style='top: -6px;'>Public activity</div>
+            </div>
+            <div id='repoOptions'>
+                <input type='text' name='search' placeholder='Find a repository...' style='height: 30px; float: left;'>
+                <button name='search' style='font: arial; font-weight: 500; font-size: 14px; height: 36px; posision: relative; float: left; left: 3px;'>
+                    <div class='buttonLabel'>Search</div>
+                </button>
+                <div style='font-weight: 800; float: left; position: relative; top: 10px; margin-left: 15px;'>All</div>
+                <div class='label'><a href='http://jsdk.com/'>Public</a></div>
+                <div class='label'><a href='http://jsdk.com/'>Private</a></div>
+                <div class='label'><a href='http://jsdk.com/'>Sources</a></div>
+                <div class='label'><a href='http://jsdk.com/'>Forks</a></div>
+                <div class='label'><a href='http://jsdk.com/'>Mirrors</a></div>
+                <button style='background-color: green; color: white; font: arial; font-weight: 500; font-size: 14px; height: 36px; width: 70px; position: relative; float: right;'>New</button>
+            </div>
+          <div id='list'><img src='http://www.iconsdb.com/icons/preview/black/book-16-xxl.png' width='50px' height='50px' style='opacity: 0.4;'></div>
       </div>
   </div>
 

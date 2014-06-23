@@ -14,9 +14,11 @@ header {
 }
 
 #headerWrap {
-  width: 900px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  left: -130px;
 }
 
 #notifications {
@@ -72,6 +74,7 @@ header {
 
 #side {
   width: 230px;
+  float: left;
 }
 
 #username {
@@ -128,18 +131,83 @@ $statPadding: 19px;
   font-weight: 200;
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 600px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+#main {
+  width: 740px;
+  float: left;
+  left: 15px;
+  position: relative;
+}
+
+.tab {
+  position: relative;
+  top: -7px;
+  color: #3F3F3F;
+  font-size: 15px;
+  left: 32px;
+}
+
+#boxContributions {
+  border-width: 1px;
+  border-color: #B9B9B9;
+  height: 40px;
+  width: 135px;
+  border-bottom-style: solid;
+  float: left;
+}
+
+#box {
+  border-width: 3px;
+  border-style: solid;
+  height: 12px;
+  width: 12px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+#boxRepos {
+  border-width: 1px;
+  border-color: #B9B9B9;
+  height: 40px;
+  width: 135px;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  float: left;
+}
+
+#boxActivity {
+  border-width: 1px;
+  border-color: #B9B9B9;
+  height: 40px;
+  width: 468px;
+  float: left;
+  border-bottom-style: solid;
+}
+
+#repoOptions {
+  position: relative;
+  top: 14px;
+}
+
+$labelMargin: 10px;
+
+.label {
+  margin-left: $labelMargin;
+  margin-right: $labelMargin;
+  margin-top: $labelMargin;
+  float: left;
+
+  a {
+    text-decoration: none;
   }
+}
+
+#list {
+  border-top-style: solid;
+  border-color: #B9B9B9;
+  border-width: 1px;
+  float: left;
+  position: relative;
+  top: 25px;
 }
