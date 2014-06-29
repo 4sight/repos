@@ -89,17 +89,19 @@
           </div>
           <div id='list'><img src='http://www.iconsdb.com/icons/preview/black/book-16-xxl.png' width='50px' height='50px' style='opacity: 0.4;'></div>
           <script type='text/template' id='repos'>
-        <div class='name'>
-          <img src='http://www.iconsdb.com/icons/preview/black/book-16-xxl.png' width='50px' height='50px' style='opacity: 0.4;'>
-          <%=name%>
-        </div>
-        <div class='updated'>
-          Last updated <time datetime='<%=updated_at%>' is="relative-time"></time>
-        </div>
-        <div class='repoInfo'>
-          <%=forks_count%>
-        </div>           
-    </script>
+            <div id='container'>
+              <div class='name'>
+                <img src='http://www.iconsdb.com/icons/preview/black/book-16-xxl.png' width='50px' height='50px' style='opacity: 0.4;'>
+                <%=name%>
+              </div>
+              <div class='repoInfo'>
+                <%=forks_count%>
+              </div>
+              <div class='updated'>
+                Last updated <time datetime='<%=updated_at%>' is="relative-time"></time>
+              </div>   
+            </div>        
+          </script>
       </div>
   </div>
 
