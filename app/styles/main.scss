@@ -204,10 +204,19 @@ $labelMargin: 10px;
 }
 
 #list {
-  border-top-style: solid;
-  border-color: #B9B9B9;
-  border-width: 1px;
+  width: 740px;
   float: left;
   position: relative;
   top: 25px;
+  border-top-style: solid;
+  border-color: #B9B9B9;
+  border-width: 1px;
+}
+
+.name {
+  border-style: solid;
+}
+
+.repoInfo {
+  
 }
