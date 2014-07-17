@@ -1,9 +1,14 @@
+// @import '../bower_components/neat/app/assets/stylesheets/neat';
 @import 'bourbon/bourbon';
 
 body {
   background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -69,6 +74,21 @@ header {
 #container {
   margin-top: 20px;
   margin-left: 60px;
+}
+
+#wrapper {
+  color: grey;
+  font-size: 11px;
+  // border-bottom-color: grey;
+  // border-bottom-style: solid;
+  // border-bottom-width: 1px;
+
+  a {
+    position: relative;
+    top: -8px;
+    font-weight: bold;
+    font-size: 20px;
+  }
 }
 
 #side {
@@ -189,17 +209,13 @@ $statPadding: 19px;
   top: 14px;
 }
 
-$labelMargin: 10px;
+$labelMargin: 11px;
 
 .label {
   margin-left: $labelMargin;
   margin-right: $labelMargin;
   margin-top: $labelMargin;
   float: left;
-
-  a {
-    text-decoration: none;
-  }
 }
 
 #list {
