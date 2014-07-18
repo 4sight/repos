@@ -76,12 +76,13 @@ header {
   margin-left: 60px;
 }
 
-#wrapper {
+$listMargins: 15px;
+
+.wrapper {
   color: grey;
   font-size: 11px;
-  // border-bottom-color: grey;
-  // border-bottom-style: solid;
-  // border-bottom-width: 1px;
+  margin-top: $listMargins;
+  margin-bottom: $listMargins;
 
   a {
     position: relative;
@@ -230,20 +231,45 @@ $labelMargin: 11px;
 
 .icon {
   display: inline;
+  position: relative;
+  top: -10px;
+}
+
+.right {
+  position: relative;
+  top: -28px;
+}
+
+$listMargin: -10px;
+
+.updated {
+  padding-top: $listMargin;
+  padding-bottom: $listMargin;
+  margin-top: -5px;
+  margin-bottom: $listMargin;
 }
 
 .name {
-  display: inline;
+  display: inline-block;
+  padding-top: $listMargin;
+  padding-bottom: $listMargin;
+  margin-top: $listMargin;
+  margin-bottom: $listMargin;
 }
 
 .language {
   float: right;
   display: inline-block;
+  position: relative;
+  left: -30px;
+  font-weight: 500;
 }
 
 .stars {
   float: right;
   display: inline-block;
+  position: relative;
+  left: -15px;
 }
 
 .forks {
