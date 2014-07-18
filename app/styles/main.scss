@@ -228,10 +228,25 @@ $labelMargin: 11px;
   border-width: 1px;
 }
 
-.name {
-  border-style: solid;
+.icon {
+  display: inline;
 }
 
-.repoInfo {
-  
+.name {
+  display: inline;
+}
+
+.language {
+  float: right;
+  display: inline-block;
+}
+
+.stars {
+  float: right;
+  display: inline-block;
+}
+
+.forks {
+  float: right;
+  display: inline-block;
 }
